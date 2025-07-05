@@ -1,0 +1,50 @@
+.nav-cocoflix {
+  width: 100%;
+  background: #181818;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+}
+.nav-cocoflix ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.nav-cocoflix a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.nav-cocoflix a:hover {
+  color: #e50914;
+}
+.nav-cocoflix button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.15rem;
+  cursor: pointer;
+  padding: 0.3em 1.2em;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+}
+.nav-cocoflix button:hover {
+  background: #333;
+  color: #e50914;
+}
+.nav-cocoflix .nav-activo {
+  background: #fff;
+  color: #e50914;
+}
+@media (max-width: 600px) {
+  .nav-cocoflix ul {
+    gap: 1rem;
+    font-size: 0.95rem;
+  }
+} 
