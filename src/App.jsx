@@ -18,7 +18,8 @@ function App() {
       {}
       <Nav setPaginaActual={setPaginaActual} paginaActual={paginaActual} />
       
-      {/* Renderizado condicional: muestra Estrenos2026 o Home según el estado */}
+      {/* Si paginaActual es "estrenos", muestra el componente Estrenos2026.
+      Si no, muestra el componente Home */}
       {paginaActual === "estrenos" ? <Estrenos2026 /> : <Home />}
       
       {}

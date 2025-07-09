@@ -3,9 +3,9 @@ import "../App.css";
 import avengersDoomsday from "../../public/img/avengers-doomsday.webp";
 import Gollum from "../../public/img/El Señor de los Anillos La Caza de Gollum.jpg";
 import mandalorian from "../../public/img/mandalorian_.jpg";
-import Dune from "../../public/img/dune-messiah.jpg"
-import batman from "../../public/img/THE-BATMAN-CONCEPT-3-save-jpeg.jpg"
-import spiderman from "../../public/img/Spidermanbrandnewdayposter.webp"
+import Dune from "../../public/img/dune-messiah.jpg";
+import batman from "../../public/img/THE-BATMAN-CONCEPT-3-save-jpeg.jpg";
+import spiderman from "../../public/img/Spidermanbrandnewdayposter.webp";
 
 // Componente que renderiza la galería de estrenos
 // Recibe un array de películas con título e imagen
